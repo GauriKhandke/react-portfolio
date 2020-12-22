@@ -3,6 +3,11 @@ a.nav-link{
   font: 12px 'opensans-bold', sans-serif;
 
 }
+
+.nav-color{
+  background: linear-gradient(180deg, #010f3e 2%, #0e0512 90%) no-repeat;
+}
+
 /* Profile image */
 .profile-img{
   width: 240px;
@@ -12,7 +17,7 @@ a.nav-link{
 }
 
 .header-section{
-  background: url('../images/background/structure-bg.jpg') no-repeat center center fixed;
+  background: url('../images/background/laptop1.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -62,7 +67,15 @@ a.nav-link{
 }
 
 #portfolio{
-  background: linear-gradient(45deg, #DAE2F8 30%, #D6A4A4 90%) no-repeat;
+  background: linear-gradient(45deg, #DAE2F8 30%, #D6A4A4 90%) no-repeat; 
+}
+
+.heading{
+  background: -webkit-linear-gradient(#3a444e, #d84e4e);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Big Shoulders Inline Text', cursive;
 }
 
 /* Skills icon container */
@@ -76,7 +89,7 @@ a.nav-link{
 footer{
   position: relative;
   /* background : Radial-gradient(ellipse at bottom,#011968,#0e0512); */
-  background: linear-gradient(0deg, #011968 5%, #0e0512 90%) no-repeat;
+  background: linear-gradient(0deg, #010f3e 2%, #0e0512 90%) no-repeat;
   color: #9dc6d8;
 }
 
