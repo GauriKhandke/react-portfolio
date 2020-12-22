@@ -10,11 +10,13 @@ export default function Portfolio() {
   return (
     <>  
       <section id="portfolio">
+				<br/>
         <br/>
+        <br />
         <Container>
           <Row>
             <Col className="text-center">
-              <h2><strong>Projects</strong></h2>
+              <h2 className="heading"><strong>Projects</strong></h2>
             </Col>  
           </Row>
           <hr className="line" />
