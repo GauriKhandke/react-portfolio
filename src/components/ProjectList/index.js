@@ -3,7 +3,6 @@ import { Card, Col } from 'react-bootstrap';
 
 export default function ProjectList(props) {
   return (
-   
         <>
           <Col lg={4} style={{ padding: '20px',backgroundColor: 'transparent'}}>
             <Card style={{ borderRadius: '10px', backgroundColor: '#ffffff', boxShadow: '3px 3px 12px 0 #a9a9a9',textAlign: 'center',}} >
