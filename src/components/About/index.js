@@ -6,11 +6,13 @@ import '../../assets/css/script.css';
 export default function About() {
 	return (
 		<>
-			<div id="about">
+			<div id="about">			
 				<div className="container" style={{ padding: '20px' }}>
+				<br/>
+				<br />
 					<Row>
 						<Col className="text-center">
-							<h2><strong>About Me</strong></h2>
+							<h2 className="heading"><strong>About Me</strong></h2>
 						</Col>
 					</Row>
 					<hr className="line" />
@@ -24,7 +26,7 @@ export default function About() {
 						<div
 							className="col-md-9 col-sm-12" style={{ margin: '0 auto', padding: '0 25px', }}	>
 							<p style={{ margin: '20px 10px 0 10px', textAlign: 'justify', fontSize: '1.1em', }}>
-								Hello there..I am{' '} <strong>Gauri Khandke</strong>, a passionate full stack web developer from
+								Passionate full stack web developer from
 								India and currently living in Seattle, WA., effective at combining logical thinking and problem solving to develop
 								user-friendly applications. Completed a certification in full-stack web
 								development from the University of Washington bootcamp. Graduated with
