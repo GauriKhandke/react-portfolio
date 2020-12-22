@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/css/script.css';
+import resume from '../../assets/GauriKhandkeResume.pdf';
 
 export default function Footer() {
     return (
@@ -15,7 +16,7 @@ export default function Footer() {
                     target="_blank" rel="noopener noreferrer" style={{fontSize:30,color:'#a6a6a6',marginRight:10}}><i className="fab fa-linkedin"></i></a>
                   <a href="mailto: khandkegauri@gmail.com" className="btn tooltip-test icon" title="Email" target="_blank" rel="noopener noreferrer"
                     style={{fontSize:30, color:'#a6a6a6', marginRight:10}}><i className="fas fa-envelope"></i></a>
-                  <a href="assets/GauriKhandkeResume.pdf" className="btn tooltip-test icon" title="Resume" target="_blank" rel="noopener noreferrer"
+                  <a href={ resume } className="btn tooltip-test icon" title="Resume" target="_blank" rel="noopener noreferrer"
                     style={{fontSize:30, color:'#a6a6a6'}}><i className="fas fa-file-pdf"></i></a>
                   <br />
                   <p className="copyright mt-2 text-center" style={{ color :'#a6a6a6',marginRight : '30px',marginTop:'15px'}}>

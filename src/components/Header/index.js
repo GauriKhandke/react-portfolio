@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/css/script.css';
+import resume from '../../assets/GauriKhandkeResume.pdf';
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
                 target="_blank" rel="noopener noreferrer" style={{fontSize:25,color:'#E8E8E8',marginRight:10}}><i className="fab fa-linkedin"></i></a>
             <a href="mailto: khandkegauri@gmail.com" className="btn tooltip-test icon" title="Email" target="_blank" rel="noopener noreferrer"
                 style={{fontSize:25, color:'#E8E8E8', marginRight:10}}><i className="fas fa-envelope"></i></a>
-            <a href="assets/GauriKhandkeResume.pdf" className="btn tooltip-test icon" title="Resume" target="_blank" rel="noopener noreferrer"
+            <a href= { resume } className="btn tooltip-test icon" title="Resume" target="_blank" rel="noopener noreferrer"
                 style={{fontSize:25, color:'#E8E8E8'}}><i className="fas fa-file-pdf"></i></a>
                  
         </div>
