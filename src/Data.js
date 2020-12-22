@@ -11,7 +11,7 @@ import codequiz from './assets/images/codequiz.png';
 export const projects = [
   {
     id: "GauriKhandke/oasis",
-    title: "Oasis (MERN)",
+    title: "Oasis Journal (MERN)",
     description:
       "Online journal Application that allows both young and young at heart to write their thoughts, feelings and emotions into a safe, secure and fun journal app. ",
     imageUrl: oasis,
