@@ -3,7 +3,7 @@ html{
 }
 
 html body{
-  background: url('assets/images/background/white.jpg') no-repeat center center fixed;
+  background: url('assets/images/background/structure-bg.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
