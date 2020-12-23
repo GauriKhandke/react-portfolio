@@ -29,7 +29,7 @@ export default function ProjectList(props) {
                   {/* Details Modal */}
                   <Modal show={show} onHide={handleClose} size = "lg">
                     <Modal.Header closeButton>
-                      <Modal.Title className="modelHeading"><strong>{props.project.title}</strong></Modal.Title>
+                      <Modal.Title className="modelHeading"><h3><strong>{props.project.title}</strong></h3></Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         <div className = "d-flex justify-content-center" style={{marginBottom: '15'}}>
