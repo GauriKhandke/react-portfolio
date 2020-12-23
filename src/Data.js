@@ -1,12 +1,12 @@
-import oasis from './assets/images/OasisLanding.png';
-import jobfinder from './assets/images/JobFinder.png';
-import burgerlogger from './assets/images/Burger-Logger.png';
-import googlebooks from './assets/images/GoogleBooksReact.png';
-import employeedirectory from './assets/images/EmployeeDirectory.png';
-import notetaker from './assets/images/NoteTaker.png';
-import weatherdashboard from './assets/images/weather-dashboard.png';
-import dayplanner from './assets/images/DayPlanner.png';
-import codequiz from './assets/images/codequiz.png';
+import oasis from './assets/images/appImages/OasisJournal.png';
+import jobfinder from './assets/images/appImages/JobFinder.png';
+import burgerlogger from './assets/images/appImages/BurgerLogger.png';
+import googlebooks from './assets/images/appImages/GoogleBooksReact.png';
+import employeedirectory from './assets/images/appImages/EmployeeDirectory.png';
+import notetaker from './assets/images/appImages/NoteTaker.png';
+import weatherdashboard from './assets/images/appImages/WeatherDashboard.png';
+import dayplanner from './assets/images/appImages/DayPlanner.png';
+import codequiz from './assets/images/appImages/CodeQuiz.png';
 
 export const projects = [
   {
