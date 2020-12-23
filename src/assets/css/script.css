@@ -80,8 +80,18 @@ a.nav-link:hover{
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Big Shoulders Inline Text', cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.modelHeading{
+  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
+  background: -webkit-linear-gradient(#575a60, #9d37bb);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 /* Skills icon container */
 .skill-container {
