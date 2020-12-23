@@ -1,6 +1,6 @@
 a.nav-link{
   text-transform: uppercase;
-  font: 12px 'opensans-bold', sans-serif;
+  font: 18px 'opensans-bold', sans-serif;
 }
 
 a.nav-link:hover{
@@ -118,6 +118,14 @@ footer{
   color: white !important;
 }
 
+.social-link:hover{
+  transform: scale(1.2);
+}
+
+.card-style:hover{
+  transform: scale(1.02);
+}
+
 /* Go To Top Button */
 #go-top {
 	position: absolute;
@@ -149,7 +157,7 @@ footer{
   }
   
   .header-description{
-    font-size: 1em;
+    font-size: 1.02em;
   }
 
   ul.navbar.nav.justify-content-start{
@@ -159,6 +167,7 @@ footer{
 
   a.nav-link{
     padding-left: 5px;
+    font: 15px 'opensans-bold', sans-serif;
     /* padding-right: 8px; */
   }
 }

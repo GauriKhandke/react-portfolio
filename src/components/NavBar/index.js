@@ -3,22 +3,22 @@ import React from 'react';
 export default function Nav() {
     return (
         <>
-          <div id = "home" >
+          <div id = "home">
             <div className="container-fluid nav-color">
                 <nav>
-                  <ul className="navbar nav justify-content-start fixed-top navbar-dark nav-color">
+                  <ul className="navbar nav justify-content-center fixed-top navbar-dark nav-color">
                     <li className="nav-item">
-                      <a className="nav-link" style={{ fontSize: '25px', color:'white', fontWeight:'bold' }} href="#home">
-                        Gauri Khandke
+                      <a className="nav-link" style={{ color:'white' }} href="#home">
+                        Home
                       </a>
                     </li>
                     <li className="nav-item" >
-                      <a className="nav-link" href="#about" style={{ fontSize: '20px',color: 'white'}}>
+                      <a className="nav-link" href="#about" style={{ color: 'white'}}>
                         About
                       </a>
                     </li>
                     <li className="nav-item" >
-                      <a className="nav-link" href="#portfolio" style={{ fontSize: '20px',color: 'white'}}>
+                      <a className="nav-link" href="#portfolio" style={{ color: 'white'}}>
                         Portfolio
                       </a>
                     </li>
