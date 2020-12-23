@@ -13,7 +13,7 @@ export default function ProjectList(props) {
   return (
         <>
           <Col lg={4} style={{ padding: '20px',backgroundColor: 'transparent'}}>
-            <Card style={{ borderRadius: '10px', backgroundColor: '#ffffff', boxShadow: '3px 3px 12px 0 #a9a9a9',textAlign: 'center',}} >
+            <Card className="shadow card-style" style={{ borderRadius: '10px', backgroundColor: '#ffffff', textAlign: 'center',}} >
               <Card.Img variant="top" src={props.project.imageUrl} />
               <Card.Body style={{ paddingTop: '0'}}>
                 <Card.Title style={{fontSize:'1.3em'}}><strong>{props.project.title}</strong></Card.Title>
@@ -35,25 +35,25 @@ export default function ProjectList(props) {
                         <div className = "d-flex justify-content-center" style={{marginBottom: '15'}}>
                        
                           <img src={props.project.gif} alt="Demo"
-                            class="img-thumbnail rounded float-left img-fluid d-flex"
+                            className="img-thumbnail rounded float-left img-fluid d-flex"
                           ></img>
                         
                         </div>
                     </Modal.Body>
-                    <Modal.Body style={{ fontSize: '16px' }}>
-                      <h3>Description: </h3>
+                    <Modal.Body style={{ fontSize: '18px' }}>
+                      <h3><strong>Description: </strong></h3>
                       <p>{props.project.details}</p>
-                      <h3>Technology Used: </h3>
+                      <h3><strong>Technology Used: </strong></h3>
                       <p>{props.project.technology}</p>
                     </Modal.Body>
                   </Modal>
                   </div>
                   <div className="float-right">
-                    <a style={{ minWidth: '60px',margin: '15px 10px 5px',}} href={props.project.appUrl} target="_blank" rel="noopener noreferrer" >
-                      <i className='fab fa-chrome' style={{fontSize:'30px' }}></i>
+                    <a style={{ minWidth: '60px',margin: '15px 10px 5px',}} href={props.project.appUrl} className="tooltip-test" title="Deployed Website" target="_blank" rel="noopener noreferrer" >
+                      <i className='fab fa-chrome social-link' style={{fontSize:'30px' }}></i>
                     </a>
-                    <a style={{ minWidth: '60px',margin: '15px 10px 5px',}} href={'https://github.com/' + props.project.id} target="_blank" rel="noopener noreferrer">
-                      <i className='fab fa-github' style={{fontSize:'30px'}}></i>
+                    <a style={{ minWidth: '60px',margin: '15px 10px 5px',}} href={'https://github.com/' + props.project.id} className="tooltip-test" title="GitHub Repo" target="_blank" rel="noopener noreferrer">
+                      <i className='fab fa-github social-link' style={{fontSize:'30px'}}></i>
                     </a>
                   </div>
                 </div>
