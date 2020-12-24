@@ -25,7 +25,7 @@ export default function About() {
 
 						<div
 							className="col-md-9 col-sm-12" style={{ margin: '0 auto', padding: '0 25px'}}	>
-							<p style={{ margin: '20px 10px 0 10px', textAlign: 'justify', fontSize: '1.1em', }}>
+							<p style={{ margin: '20px 10px 0 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828' }}>
 								Passionate full stack web developer from
 								India and currently living in Seattle, WA., effective at combining logical thinking and problem solving to develop
 								user-friendly applications. Completed a certification in full-stack web
@@ -34,7 +34,7 @@ export default function About() {
 								India. Worked as ‘Assistant System Engineer’ in TCS for about a year.
 							</p>
 							<p
-								style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', }}>
+								style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828'}}>
 								I am proactive in learning new skills and knowledge with core competency in
 								full-stack web development such as JavaScript, HTML, CSS, jQuery, React,
 								NodeJS, MongoDB, SQL, and RESTful APIs. Life-long dedication to learning and in
@@ -42,7 +42,7 @@ export default function About() {
 								pressure, collaborative communicator. I look forward to bringing my skills and
 								passion for software development to build user focused applications.
 							</p>
-							<p style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', }}	>
+							<p style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828' }}	>
 								<strong>Contact Email: khandkegauri@gmail.com </strong>
 							</p>
 						</div>

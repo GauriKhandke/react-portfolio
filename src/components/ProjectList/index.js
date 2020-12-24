@@ -16,8 +16,8 @@ export default function ProjectList(props) {
             <Card className="shadow card-style" style={{ borderRadius: '10px', backgroundColor: '#ffffff', textAlign: 'center',}} >
               <Card.Img variant="top" src={props.project.imageUrl} />
               <Card.Body style={{ paddingTop: '0'}}>
-                <Card.Title style={{fontSize:'1.3em'}}><strong>{props.project.title}</strong></Card.Title>
-                <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#444444',padding: '15px'}}>{props.project.description}</Card.Text>
+                <Card.Title style={{fontSize:'1.3em', color:'#444444'}}><strong>{props.project.title}</strong></Card.Title>
+                <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#505050',padding: '15px'}}>{props.project.description}</Card.Text>
                 <div style={{ padding: '15px' }} >
                   <div className="float-left">
                   
