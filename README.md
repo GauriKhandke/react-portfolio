@@ -10,7 +10,7 @@ As an Full Stack Web Developer and a member of the dev community, I want to have
 
 * Every featured project presents a brief description, icons to see the live application and the Github repository and also details button to show details of the project. 
 
-* The footer includes links to my main internet handles on Github, LinkedIn, my Resume and a link to contact me by email. 
+* The footer includes links to my main internet handles on Github, LinkedIn, my Resume and contact email. 
 
 * This portfolio has been created with [React](https://github.com/facebook/create-react-app) and deployed using Github pages.
 
