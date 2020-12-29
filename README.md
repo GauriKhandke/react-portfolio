@@ -1,6 +1,7 @@
 # React Portfolio
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
+[![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fhttps://gaurikhandke.github.io/react-portfolio/)](https://gaurikhandke.github.io/react-portfolio/)
 
 # Description
 
