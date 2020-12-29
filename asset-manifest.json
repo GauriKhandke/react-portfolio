@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d8e5985a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.036bcef0.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.036bcef0.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.ee0c1dd4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ee0c1dd4.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.03e9f4b7.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.03e9f4b7.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react-portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/EmployeeDirectory.a383166e.png": "/react-portfolio/static/media/EmployeeDirectory.a383166e.png",
     "static/media/EmployeeDirectory.e584a8fc.gif": "/react-portfolio/static/media/EmployeeDirectory.e584a8fc.gif",
     "static/media/Gauri.30f5eee5.jpg": "/react-portfolio/static/media/Gauri.30f5eee5.jpg",
-    "static/media/GauriKhandkeResume.3c9bb186.pdf": "/react-portfolio/static/media/GauriKhandkeResume.3c9bb186.pdf",
+    "static/media/GauriKhandkeResume.0cec7c54.pdf": "/react-portfolio/static/media/GauriKhandkeResume.0cec7c54.pdf",
     "static/media/GoogleBooksReact.d874cc65.png": "/react-portfolio/static/media/GoogleBooksReact.d874cc65.png",
     "static/media/GoogleBooksSearch.ec0c61dd.gif": "/react-portfolio/static/media/GoogleBooksSearch.ec0c61dd.gif",
     "static/media/JobFinder.48cc9c5d.gif": "/react-portfolio/static/media/JobFinder.48cc9c5d.gif",
@@ -42,6 +42,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.6b562d95.chunk.js",
     "static/css/main.d8e5985a.chunk.css",
-    "static/js/main.036bcef0.chunk.js"
+    "static/js/main.ee0c1dd4.chunk.js"
   ]
 }
