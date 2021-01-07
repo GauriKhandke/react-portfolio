@@ -1,9 +1,6 @@
 # React Portfolio
 
-![MIT License](https://img.shields.io/badge/license-MIT-green)
 [![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fhttps://gaurikhandke.github.io/react-portfolio/)](https://gaurikhandke.github.io/react-portfolio/)
-
-# Description
 
 As an Full Stack Web Developer and a member of the dev community, I want to have an portfolio created with the latest technologies to feature a collection of the best projects I have developed so far, So that I can showcase my professional value in a competitive way to employers.
 
@@ -45,13 +42,6 @@ As an Full Stack Web Developer and a member of the dev community, I want to have
 * HTML
 * CSS
 
-# Contribution
-
-Please let me know how I can improve this project. Issues and pull requests are always welcome.
-
-# License
-
-This project is licensed under MIT License.
 
 
 
